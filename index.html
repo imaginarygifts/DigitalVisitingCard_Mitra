@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mitra | Digital Visiting Card</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Inter',sans-serif;
+  background:#000;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+}
+.container{
+  width:100%;
+  max-width:430px;
+  min-height:100vh;
+  background:#0b0b0b;
+  padding:26px 18px 40px;
+}
+
+/* Header */
+.logo{
+  text-align:center;
+  margin-bottom:14px;
+}
+.logo img{
+  max-width:140px;
+}
+.name{
+  text-align:center;
+  font-size:24px;
+  font-weight:600;
+}
+.tagline{
+  text-align:center;
+  font-size:14px;
+  color:#aaa;
+  margin-top:6px;
+}
+
+/* Quick actions */
+.action-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+  margin-top:28px;
+}
+.action{
+  background:#151515;
+  border-radius:16px;
+  padding:14px 0;
+  text-align:center;
+  color:#fff;
+  text-decoration:none;
+  font-size:12px;
+}
+.action i{
+  font-size:18px;
+  margin-bottom:6px;
+  display:block;
+}
+
+/* Big buttons */
+.primary-btn{
+  margin-top:22px;
+  display:block;
+  background:#fff;
+  color:#000;
+  text-align:center;
+  padding:15px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.instagram-btn{
+  margin-top:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  background:linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+  color:#fff;
+  padding:15px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+  font-size:15px;
+}
+
+/* Sections */
+.section{
+  margin-top:34px;
+}
+.section h3{
+  font-size:16px;
+  margin-bottom:12px;
+}
+.card{
+  background:#151515;
+  border-radius:18px;
+  padding:16px;
+  font-size:13.5px;
+  color:#ccc;
+  line-height:1.6;
+}
+
+/* Tags */
+.tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.tag{
+  background:#1f1f1f;
+  padding:9px 14px;
+  border-radius:20px;
+  font-size:12px;
+}
+
+/* Social */
+.social{
+  display:flex;
+  justify-content:center;
+  gap:22px;
+  margin-top:28px;
+}
+.social a{
+  color:#fff;
+  font-size:22px;
+}
+
+.footer{
+  text-align:center;
+  font-size:11px;
+  color:#777;
+  margin-top:32px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <!-- LOGO -->
+  <div class="logo">
+    <img src="LOGO_IMAGE_URL" alt="Mitra">
+  </div>
+
+  <!-- BRAND -->
+  <div class="name">Mitra</div>
+  <div class="tagline">Authentic Style · Branded Fashion</div>
+
+  <!-- QUICK ACTIONS -->
+  <div class="action-grid">
+    <a class="action" href="REVIEW_LINK" target="_blank">
+      <i class="fa-solid fa-star"></i>Review
+    </a>
+    <a class="action" href="MAPS_LINK" target="_blank">
+      <i class="fa-solid fa-location-dot"></i>Maps
+    </a>
+    <a class="action" href="https://wa.me/WHATSAPP_NUMBER" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i>WhatsApp
+    </a>
+    <a class="action" href="tel:PHONE_NUMBER">
+      <i class="fa-solid fa-phone"></i>Call
+    </a>
+  </div>
+
+  <!-- BIG CTA -->
+  <a class="primary-btn" href="WEBSITE_LINK" target="_blank">
+    Visit Our Store
+  </a>
+
+  <!-- INSTAGRAM -->
+  <a class="instagram-btn" href="INSTAGRAM_LINK" target="_blank">
+    <i class="fab fa-instagram"></i> Follow Us on Instagram
+  </a>
+
+  <!-- ABOUT -->
+  <div class="section">
+    <h3>About Us</h3>
+    <div class="card">
+      <strong>Your Destination for Authentic Style</strong><br><br>
+      Welcome to Mitra Collections, your premier destination for high-end fashion, footwear, and accessories.
+      We believe style is a reflection of personality, and quality should never be compromised.<br><br>
+      We stand apart by offering a curated selection of products that are <strong>100% original and branded</strong>.
+      Our specialized collection brings the world’s leading brands right to your doorstep.
+    </div>
+  </div>
+
+  <!-- CLOTHING -->
+  <div class="section">
+    <h3>Clothing</h3>
+    <div class="tags">
+      <div class="tag">Mens Wear</div>
+      <div class="tag">Ladies Wear</div>
+      <div class="tag">Winter Wear</div>
+      <div class="tag">Tracks</div>
+      <div class="tag">Dry Fits</div>
+      <div class="tag">Formals</div>
+    </div>
+  </div>
+
+  <!-- FOOTWEAR -->
+  <div class="section">
+    <h3>Footwear</h3>
+    <div class="tags">
+      <div class="tag">Sports Shoes</div>
+      <div class="tag">Formal Shoes</div>
+      <div class="tag">Sandals</div>
+      <div class="tag">Heels</div>
+      <div class="tag">Boots</div>
+      <div class="tag">Hiking Shoes</div>
+    </div>
+  </div>
+
+  <!-- ACCESSORIES -->
+  <div class="section">
+    <h3>Accessories</h3>
+    <div class="tags">
+      <div class="tag">Goggles</div>
+      <div class="tag">Watches</div>
+      <div class="tag">Iron</div>
+      <div class="tag">Steam Iron</div>
+      <div class="tag">Perfumes</div>
+      <div class="tag">Luggage Bags</div>
+      <div class="tag">Premium Hand Bags</div>
+    </div>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="social">
+    <a href="INSTAGRAM_LINK"><i class="fab fa-instagram"></i></a>
+    <a href="FACEBOOK_LINK"><i class="fab fa-facebook"></i></a>
+    <a href="mailto:EMAIL_ADDRESS"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+
+  <div class="footer">
+    © Mitra · Premium Fashion Destination
+  </div>
+
+</div>
+</body>
+</html>
